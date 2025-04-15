@@ -9,9 +9,10 @@
 /* OpenDyslexic Font */
 
 @font-face {
-  font-family: "OpenDyslexic";
-  src: url('fonts/OpenDyslexic-Regular.otf');
+  font-family: 'OpenDyslexic';
+  src: url('fonts/OpenDyslexic-Regular.otf') format('opentype');
 }
+
 
 /* Changing the main font and background colour */
 
@@ -62,7 +63,7 @@ footer a:hover {
 
 
 .open-dyslexic {
-	font-family: "OpenDyslexic";
+	font-family: "OpenDyslexic", sans-serif;
 }
 
 /* Button Gradient from Pink to Blue */
