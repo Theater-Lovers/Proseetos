@@ -2,6 +2,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
 
+.lexend {
+  font-family: 'Lexend', sans-serif;
+}
+
+/* OpenDyslexic Font */
+
+@font-face {
+  font-family: "OpenDyslexic";
+  src: url('fonts/OpenDyslexic-Regular.otf');
+}
+
 /* Changing the main font and background colour */
 
 body {
@@ -36,9 +47,106 @@ footer a:hover {
 
 /* Hero Section shadow */
 
+/*
 .white-shadow {
 	text-shadow: -.01em -.01em .01em white,
 		.02em .02em .02em white,
 		0 0 .2em white,
 		0 0 .5em white;
 }
+*/
+
+.header-padding {
+	padding-top: 150px;
+}
+
+
+.open-dyslexic {
+	font-family: "OpenDyslexic";
+}
+
+/* Button Gradient from Pink to Blue */
+
+.donate-btn {
+    background: linear-gradient(45deg, #ce7280, #79c1e0);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: opacity 0.3s ease;
+    text-decoration: none;
+} 
+
+
+/* Gradient from Pink to Blue */
+
+.gradient-button {
+  background: linear-gradient(45deg, #ce7280, #79c1e0);
+  color: white;
+}
+
+
+/* contact page card */
+.contact-section {
+      padding: 60px 0;
+    }
+
+.contact-card {
+      background: white;
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+
+.contact-icon {
+  font-size: 1.4rem;
+  margin-right: 10px;
+  background: linear-gradient(45deg, #ce7280, #79c1e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+
+/* Team Cards */
+.team-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 15px;
+  }
+
+.team-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+
+.team-img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: contain;          /* SHOW full image */
+    height: 250px;
+    background-color: #f8f9fa;    /* Optional background behind image */
+    width: 100%;
+  }
+
+
+/* Values */
+.value-box {
+    padding: 2rem;
+    border-radius: 15px;
+    color: white;
+    margin-bottom: 1rem;
+  }
+
+  .bg-accessibility {
+    background: #ce7280;
+  }
+
+.bg-passion {
+    background: linear-gradient(90deg, #ce7280, #79c1e0);
+  }
+
+.bg-community {
+    background: #79c1e0;
+  }
