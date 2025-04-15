@@ -9,12 +9,16 @@
 /* OpenDyslexic Font */
 
 @font-face {
-  font-family: 'OpenDyslexic';
-  src: url('fonts/OpenDyslexic-Regular.otf') format('opentype');
+    font-family: 'OpenDyslexic';
+    src: url('OpenDyslexic-Regular.woff2') format('woff2'),
+        url('OpenDyslexic-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 .open-dyslexic {
-    font-family: OpenDyslexic, OpenDyslexic;
+    font-family: OpenDyslexic;
 }
 
 
