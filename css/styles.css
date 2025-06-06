@@ -37,9 +37,11 @@ header {
 
 /* Changing the background color for the navigation bar */
 
-.navbar {
-	background-color: #fff0e0;
+.navbar .nav-link {
+  color: beige !important;  /* This sets the text color */
+  background-color: transparent !important; /* Ensure background stays transparent */
 }
+
 
 /* Effect on social media buttons */
 
@@ -74,7 +76,7 @@ footer a:hover {
 /* Button Gradient from Pink to Blue */
 
 .donate-btn {
-    background: linear-gradient(45deg, #ce7280, #79c1e0);
+    background: linear-gradient(45deg, #FFCE1B, #FFCE1B);
     color: white;
     border: none;
     padding: 0.5rem 1rem;
@@ -88,7 +90,7 @@ footer a:hover {
 /* Gradient from Pink to Blue */
 
 .gradient-button {
-  background: linear-gradient(45deg, #ce7280, #79c1e0);
+  background: linear-gradient(45deg, #cfc5ba, #cfc5ba);
   color: white;
 }
 
@@ -109,7 +111,7 @@ footer a:hover {
 .contact-icon {
   font-size: 1.4rem;
   margin-right: 10px;
-  background: linear-gradient(45deg, #ce7280, #79c1e0);
+  background: linear-gradient(45deg, #b33334, #2D68C4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
@@ -146,13 +148,18 @@ footer a:hover {
   }
 
   .bg-accessibility {
-    background: #ce7280;
+    background: #b33334;
   }
 
 .bg-passion {
-    background: linear-gradient(90deg, #ce7280, #79c1e0);
+    background: linear-gradient(90deg, #b33334, #2D68C4);
   }
 
 .bg-community {
-    background: #79c1e0;
+    background: #2D68C4;
   }
+
+
+.text-beige  {
+	color: beige;
+}
